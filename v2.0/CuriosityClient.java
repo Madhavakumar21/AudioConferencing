@@ -115,7 +115,7 @@ public class CuriosityClient
 {
 	public static void main(String args[]) throws Exception
 	{
-		Socket sock = new Socket("192.168.8.101", 9999);
+		Socket sock = new Socket("13.232.32.16", 9999);
 		//Socket sock = new Socket("localhost", 9999);
 		BufferedReader sendRead = new BufferedReader(new InputStreamReader(System.in));
 		OutputStream ostream = sock.getOutputStream();
